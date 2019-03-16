@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="../ProyectoUnidad3/css/login.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    
+</head>
+<script src="https://code.jquery.com/jquery-2.1.0.min.js" ></script>
+<body>
+    <div id="formWrapper">
+        <form name="form" action="../ProyectoUnidad3/index.html">
+                <div id="form">
+                        <div class="logo">
+                            <h1 class="animated infinite pulse">Iniciar Sesión</h1>
+                        </div>
+                        <div class="form-item">
+                            <p class="formLabel">Email</p>
+                            <input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+                        </div>
+                        <div class="form-item">
+                            <p class="formLabel">Password</p>
+                            <input type="password" name="password" id="password" class="form-style" />
+                        </div>
+                        <div class="form-item">
+                            <input onclick="login()" type="button" class="btn btn-primary btn-lg btn-block" value="Log In">
+                            <div class="clear-fix"></div>
+                        </div>
+                </div>
+          </form>
+              </div>
+    <script src="../ProyectoUnidad3/js/login.js"></script>
+</body>
+</html>
